@@ -13,7 +13,7 @@ app.get('/', (req, res) => { // "/" es conocida como ENDPOINT
     res.json({message: 'Hello express'})
 })
 
-////CREATEE
+////CREATE
 
 app.post('/country', async (req, res) => {
     const{name, capital, n_habitantes} = req.body
@@ -47,7 +47,7 @@ app.get('/country', async (req, res) => {
     }
 })
 
-//REED de una ÚNICA ENTIDAD
+//READ de una ÚNICA ENTIDAD
 
 // Se realiza el cambio de COUNTRIES por COUNTRY
 
